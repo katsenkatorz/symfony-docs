@@ -29,7 +29,7 @@ Basic Usage
         class Author
         {
             /**
-             * @Assert\DateTime
+             * @Assert\Type(type="DateTime")
              * @var string A "Y-m-d H:i:s" formatted value
              */
             protected $createdAt;
